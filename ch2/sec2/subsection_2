@@ -1,0 +1,49 @@
+source="../../_source-2.12.2"
+
+cp "$source"/git-cat-file.txt .
+cp "$source"/git-diff-files.txt .
+cp "$source"/git-diff-index.txt .
+cp "$source"/git-diff-tree.txt .
+cp "$source"/git-for-each-ref.txt .
+cp "$source"/git-ls-files.txt .
+cp "$source"/git-ls-tree.txt .
+cp "$source"/git-merge-base.txt .
+cp "$source"/git-name-rev.txt .
+cp "$source"/git-pack-redundant.txt .
+cp "$source"/git-rev-list.txt .
+cp "$source"/git-show-index.txt .
+cp "$source"/git-show-ref.txt .
+cp "$source"/git-unpack-file.txt .
+cp "$source"/git-var.txt .
+cp "$source"/git-verify-pack.txt .
+
+cp "$source"/diff-options.txt .
+cp "$source"/diff-heuristic-options.txt .
+cp "$source"/diff-format.txt .
+cp "$source"/diff-generate-patch.txt .
+cp "$source"/rev-list-options.txt .
+cp "$source"/pretty-formats.txt .
+cp "$source"/pretty-options.txt .
+
+../../../../atom git-cat-file
+../../../../atom git-diff-files
+../../../../atom git-diff-index
+../../../../atom git-diff-tree
+../../../../atom git-for-each-ref
+../../../../atom git-ls-files
+../../../../atom git-ls-tree
+../../../../atom git-merge-base
+../../../../atom git-name-rev
+../../../../atom git-pack-redundant
+../../../../atom git-rev-list
+../../../../atom git-show-index
+../../../../atom git-show-ref
+../../../../atom git-unpack-file
+../../../../atom git-var
+../../../../atom git-verify-pack
+
+rm -f tmp.*
+rm -f x.md
+rm -f *.txt
+rm -f *.mdn
+rm -f *.mdr

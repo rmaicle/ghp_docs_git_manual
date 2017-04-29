@@ -1,0 +1,46 @@
+source="../../_source-2.12.2"
+
+cp "$source"/git-check-attr.txt .
+cp "$source"/git-check-ignore.txt .
+cp "$source"/git-check-mailmap.txt .
+cp "$source"/git-check-ref-format.txt .
+cp "$source"/git-column.txt .
+cp "$source"/git-credential.txt .
+cp "$source"/git-credential-cache.txt .
+cp "$source"/git-credential-store.txt .
+cp "$source"/git-fmt-merge-msg.txt .
+cp "$source"/git-interpret-trailers.txt .
+cp "$source"/git-mailinfo.txt .
+cp "$source"/git-mailsplit.txt .
+cp "$source"/git-merge-one-file.txt .
+cp "$source"/git-patch-id.txt .
+cp "$source"/git-sh-i18n.txt .
+cp "$source"/git-sh-setup.txt .
+cp "$source"/git-stripspace.txt .
+
+cp "$source"/mailmap.txt .
+cp "$source"/fmt-merge-msg-config.txt .
+
+../../../../atom git-check-attr
+../../../../atom git-check-ignore
+../../../../atom git-check-mailmap
+../../../../atom git-check-ref-format
+../../../../atom git-column
+../../../../atom git-credential
+../../../../atom git-credential-cache
+../../../../atom git-credential-store
+../../../../atom git-fmt-merge-msg
+../../../../atom git-interpret-trailers
+../../../../atom git-mailinfo
+../../../../atom git-mailsplit
+../../../../atom git-merge-one-file
+../../../../atom git-patch-id
+../../../../atom git-sh-i18n
+../../../../atom git-sh-setup
+../../../../atom git-stripspace
+
+rm -f tmp.*
+rm -f x.md
+rm -f *.txt
+rm -f *.mdn
+rm -f *.mdr

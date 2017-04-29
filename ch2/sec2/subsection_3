@@ -1,0 +1,33 @@
+source="../../_source-2.12.2"
+
+cp "$source"/git-daemon.txt .
+cp "$source"/git-fetch-pack.txt .
+cp "$source"/git-http-backend.txt .
+cp "$source"/git-send-pack.txt .
+cp "$source"/git-update-server-info.txt .
+cp "$source"/git-http-fetch.txt .
+cp "$source"/git-http-push.txt .
+cp "$source"/git-parse-remote.txt .
+cp "$source"/git-receive-pack.txt .
+cp "$source"/git-shell.txt .
+cp "$source"/git-upload-archive.txt .
+cp "$source"/git-upload-pack.txt .
+
+../../../../atom git-daemon
+../../../../atom git-fetch-pack
+../../../../atom git-http-backend
+../../../../atom git-send-pack
+../../../../atom git-update-server-info
+../../../../atom git-http-fetch
+../../../../atom git-http-push
+../../../../atom git-parse-remote
+../../../../atom git-receive-pack
+../../../../atom git-shell
+../../../../atom git-upload-archive
+../../../../atom git-upload-pack
+
+rm -f tmp.*
+rm -f x.md
+rm -f *.txt
+rm -f *.mdn
+rm -f *.mdr

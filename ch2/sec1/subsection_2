@@ -1,0 +1,81 @@
+source="../../_source-2.12.2"
+
+cp "$source"/git-config.txt .
+cp "$source"/git-fast-export.txt .
+cp "$source"/git-fast-import.txt .
+cp "$source"/git-filter-branch.txt .
+cp "$source"/git-mergetool.txt .
+cp "$source"/git-pack-refs.txt .
+cp "$source"/git-prune.txt .
+cp "$source"/git-reflog.txt .
+#cp "$source"/git-relink.txt .
+cp "$source"/git-remote.txt .
+cp "$source"/git-repack.txt .
+cp "$source"/git-replace.txt .
+
+cp "$source"/git-annotate.txt .
+cp "$source"/git-blame.txt .
+cp "$source"/git-cherry.txt .
+cp "$source"/git-count-objects.txt .
+cp "$source"/git-difftool.txt .
+cp "$source"/git-fsck.txt .
+cp "$source"/git-get-tar-commit-id.txt .
+cp "$source"/git-help.txt .
+cp "$source"/git-instaweb.txt .
+cp "$source"/git-merge-tree.txt .
+cp "$source"/git-rerere.txt .
+cp "$source"/git-rev-parse.txt .
+cp "$source"/git-show-branch.txt .
+cp "$source"/git-verify-commit.txt .
+cp "$source"/git-verify-tag.txt .
+cp "$source"/git-whatchanged.txt .
+cp "$source"/gitweb.txt .
+
+cp "$source"/blame-options.txt .
+cp "$source"/config.txt .
+cp "$source"/diff-config.txt .
+cp "$source"/diff-heuristic-options.txt .
+cp "$source"/fmt-merge-msg-config.txt .
+cp "$source"/line-range-format.txt .
+cp "$source"/mailmap.txt .
+cp "$source"/merge-config.txt .
+cp "$source"/mergetools-diff.txt .
+cp "$source"/mergetools-merge.txt .
+cp "$source"/revisions.txt .
+
+../../../../atom git-config
+../../../../atom git-fast-export
+../../../../atom git-fast-import
+../../../../atom git-filter-branch
+../../../../atom git-mergetool
+../../../../atom git-pack-refs
+../../../../atom git-prune
+../../../../atom git-reflog
+#../../../../atom git-relink
+../../../../atom git-remote
+../../../../atom git-repack
+../../../../atom git-replace
+
+../../../../atom git-annotate
+../../../../atom git-blame
+../../../../atom git-cherry
+../../../../atom git-count-objects
+../../../../atom git-difftool
+../../../../atom git-fsck
+../../../../atom git-get-tar-commit-id
+../../../../atom git-help
+../../../../atom git-instaweb
+../../../../atom git-merge-tree
+../../../../atom git-rerere
+../../../../atom git-rev-parse
+../../../../atom git-show-branch
+../../../../atom git-verify-commit
+../../../../atom git-verify-tag
+../../../../atom git-whatchanged
+../../../../atom gitweb
+
+rm -f tmp.*
+rm -f x.md
+rm -f *.txt
+rm -f *.mdn
+rm -f *.mdr

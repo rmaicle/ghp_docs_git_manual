@@ -1,0 +1,46 @@
+source="../../_source-2.12.2"
+
+cp "$source"/git-apply.txt .
+cp "$source"/git-checkout-index.txt .
+cp "$source"/git-commit-tree.txt .
+cp "$source"/git-hash-object.txt .
+cp "$source"/git-index-pack.txt .
+cp "$source"/git-merge-file.txt .
+cp "$source"/git-merge-index.txt .
+cp "$source"/git-mktag.txt .
+cp "$source"/git-mktree.txt .
+cp "$source"/git-pack-objects.txt .
+cp "$source"/git-prune-packed.txt .
+cp "$source"/git-read-tree.txt .
+cp "$source"/git-symbolic-ref.txt .
+cp "$source"/git-unpack-objects.txt .
+cp "$source"/git-update-index.txt .
+cp "$source"/git-update-ref.txt .
+cp "$source"/git-write-tree.txt .
+
+cp "$source"/date-formats.txt .
+cp "$source"/i18n.txt .
+
+../../../../atom git-apply
+../../../../atom git-checkout-index
+../../../../atom git-commit-tree
+../../../../atom git-hash-object
+../../../../atom git-index-pack
+../../../../atom git-merge-file
+../../../../atom git-merge-index
+../../../../atom git-mktag
+../../../../atom git-mktree
+../../../../atom git-pack-objects
+../../../../atom git-prune-packed
+../../../../atom git-read-tree
+../../../../atom git-symbolic-ref
+../../../../atom git-unpack-objects
+../../../../atom git-update-index
+../../../../atom git-update-ref
+../../../../atom git-write-tree
+
+rm -f tmp.*
+rm -f x.md
+rm -f *.txt
+rm -f *.mdn
+rm -f *.mdr

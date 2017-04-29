@@ -1,0 +1,30 @@
+source="../../_source-2.12.2"
+
+cp "$source"/git-archimport.txt .
+cp "$source"/git-cvsexportcommit.txt .
+cp "$source"/git-cvsimport.txt .
+cp "$source"/git-cvsserver.txt .
+cp "$source"/git-imap-send.txt .
+cp "$source"/git-p4.txt .
+cp "$source"/git-quiltimport.txt .
+cp "$source"/git-request-pull.txt .
+cp "$source"/git-send-email.txt .
+cp "$source"/git-svn.txt .
+
+../../../../atom git-archimport
+../../../../atom git-cvsexportcommit
+../../../../atom git-cvsimport
+../../../../atom git-cvsserver
+../../../../atom git-imap-send
+../../../../atom git-p4
+../../../../atom git-quiltimport
+../../../../atom git-request-pull
+../../../../atom git-send-email
+../../../../atom git-svn
+
+
+rm -f tmp.*
+rm -f x.md
+rm -f *.txt
+rm -f *.mdn
+rm -f *.mdr

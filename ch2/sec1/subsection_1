@@ -1,0 +1,109 @@
+source="../../_source-2.12.2"
+
+cp "$source"/git-add.txt .
+cp "$source"/git-am.txt .
+cp "$source"/git-archive.txt .
+cp "$source"/git-bisect.txt .
+cp "$source"/git-branch.txt .
+cp "$source"/git-bundle.txt .
+cp "$source"/git-checkout.txt .
+cp "$source"/git-cherry-pick.txt .
+cp "$source"/git-citool.txt .
+cp "$source"/git-clean.txt .
+cp "$source"/git-clone.txt .
+cp "$source"/git-commit.txt .
+cp "$source"/git-describe.txt .
+cp "$source"/git-diff.txt .
+cp "$source"/git-fetch.txt .
+cp "$source"/git-format-patch.txt .
+cp "$source"/git-gc.txt .
+cp "$source"/git-grep.txt .
+cp "$source"/git-gui.txt .
+cp "$source"/git-init.txt .
+cp "$source"/git-log.txt .
+cp "$source"/git-merge.txt .
+cp "$source"/git-mv.txt .
+cp "$source"/git-notes.txt .
+cp "$source"/git-pull.txt .
+cp "$source"/git-push.txt .
+cp "$source"/git-rebase.txt .
+cp "$source"/git-reset.txt .
+cp "$source"/git-revert.txt .
+cp "$source"/git-rm.txt .
+cp "$source"/git-shortlog.txt ./git-short-log.txt
+cp "$source"/git-show.txt .
+cp "$source"/git-stash.txt .
+cp "$source"/git-status.txt .
+cp "$source"/git-submodule.txt .
+cp "$source"/git-tag.txt .
+cp "$source"/git-worktree.txt .
+cp "$source"/gitk.txt .
+
+cp "$source"/sequencer.txt .
+cp "$source"/urls.txt .
+cp "$source"/date-formats.txt .
+cp "$source"/i18n.txt .
+cp "$source"/diff-options.txt .
+cp "$source"/diff-format.txt .
+cp "$source"/diff-heuristic-options.txt .
+cp "$source"/fetch-options.txt .
+cp "$source"/fmt-merge-msg-config.txt .
+cp "$source"/pull-fetch-param.txt .
+cp "$source"/urls-remotes.txt .
+cp "$source"/transfer-data-leaks.txt .
+cp "$source"/line-range-format.txt .
+cp "$source"/rev-list-options.txt .
+cp "$source"/pretty-formats.txt .
+cp "$source"/diff-generate-patch.txt .
+cp "$source"/merge-options.txt .
+cp "$source"/merge-strategies.txt .
+cp "$source"/merge-config.txt .
+cp "$source"/mergetools-merge.txt .
+cp "$source"/mailmap.txt .
+cp "$source"/pretty-options.txt .
+cp "$source"/date-formats.txt .
+
+../../../../atom git-add
+../../../../atom git-am
+../../../../atom git-archive
+../../../../atom git-bisect
+../../../../atom git-branch
+../../../../atom git-bundle
+../../../../atom git-checkout
+../../../../atom git-cherry-pick
+../../../../atom git-citool
+../../../../atom git-clean
+../../../../atom git-clone
+../../../../atom git-commit
+../../../../atom git-describe
+../../../../atom git-diff
+../../../../atom git-fetch
+../../../../atom git-format-patch
+../../../../atom git-gc
+../../../../atom git-grep
+../../../../atom git-gui
+../../../../atom git-init
+../../../../atom git-log
+../../../../atom git-merge
+../../../../atom git-mv
+../../../../atom git-notes
+../../../../atom git-pull
+../../../../atom git-push
+../../../../atom git-rebase
+../../../../atom git-reset
+../../../../atom git-revert
+../../../../atom git-rm
+../../../../atom git-short-log
+../../../../atom git-show
+../../../../atom git-stash
+../../../../atom git-status
+../../../../atom git-submodule
+../../../../atom git-tag
+../../../../atom git-worktree
+../../../../atom gitk
+
+rm -f tmp.*
+rm -f x.md
+rm -f *.txt
+rm -f *.mdn
+rm -f *.mdr
